@@ -186,10 +186,12 @@ body{
         padding: 0.5rem;
         font-size: 3.5em;
         margin-top: 31rem;
-        margin-left: 190px;
         margin-right: 700px;
 
     }
+
+
+    
 
     .caminar-description{
         display: flex; 
@@ -208,25 +210,59 @@ body{
 
     .texto-title{
         padding: 0.5rem;
-        font-size: 1.3em;
-       margin-left: 180px;
-       margin-top: 125px;
-       margin-right: 780px;
+        font-size: 1.5em;
+        margin-left: 180px;
+        margin-right: 500px;
+        margin-top: 50px;
     }
 
     .texto-description{
         display: flex; 
-        align-items:flex-end;
+        align-items:center;
         justify-content: flex-start;
 
-       
     }
 
     #campana{
-        margin-bottom: 150px;
-        margin-right: 150px;
-        display: flex;
-        align-items: center;
-
+        margin-top: 50px;
+        margin-right: 160px;
     }
   
+    .ubicanos-title{
+        
+        text-align: center;
+        padding: 0.5rem;
+        font-size: 3.5em;
+    }
+
+    .map{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: 8px;
+        margin-top: 8px;
+    }
+
+    .mapas{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: 8px;
+        margin-top: 8px;
+    }
+
+    #direccion {
+        display: flex;
+        justify-content: center;
+    }
+    hr{
+        height: 2px;
+        background-color: lightskyblue;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #numero {
+        display: flex;
+        justify-content: center;
+    }
