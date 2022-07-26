@@ -181,15 +181,19 @@ body{
     }
 
     .caminar-title{
+        font-family: 'Roboto', sans-serif;
         background: linear-gradient(to right,rgba(0,0,0,0.60), transparent);
         padding: 0.5rem;
         font-size: 3.5em;
-        margin-top: 43rem;
+        margin-top: 31rem;
+        margin-left: 190px;
+        margin-right: 700px;
+
     }
 
     .caminar-description{
         display: flex; 
-        align-items:flex-end;
+        align-items:flex-start;
         justify-content: flex-start;
 
        
