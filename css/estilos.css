@@ -303,7 +303,7 @@ body{
         width: 350px;
         box-shadow: 2px 2px 30px rgba(0, 0 , 0, 0.1);
         background-color: white;
-        padding: 20px;
+        padding: 1%;
         margin: 55px;
         border-radius: 10px;
     }
@@ -354,18 +354,23 @@ body{
 .pagina{
     font-family: 'Marcellus', serif;
     background-color: black;
-    height: 420px;
+    height: 270px;
 }
 
 .description{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     font-family: 'Marcellus', serif;
     color: white;
-    font-size: 1.5rem;
-    margin-right: 260px;
-    margin-left: 100px;
-    margin-bottom: 50px;
+    font-size: 1.3em;
+ 
+}
+
+.description p{
+    margin-left: 20px;
+    margin-left: 20px;
+    margin-right: 360px;
+    padding: 10px;
 }
 
 .sociales{
@@ -393,5 +398,10 @@ body{
     color: white;
     font-size: 25px;
 
+}.desc{
+    font-family: 'Marcellus', serif;
+display: flex;
+flex-direction: column;
+margin-right: 270px;
+    justify-content: space-between;
 }
-
