@@ -267,21 +267,131 @@ body{
         justify-content: center;
     }
 
-    .imagen img{
+    .container{
+        height: 200px;
+        overflow: hidden;
         position: relative;
-        display: inline-block;
-        text-align: center;
-        width: 100%; 
-        height: 15.5em;
-        color: white;
+        margin: 50px auto;
     }
-     
-    
-    .imagen text{
-        font-size: medium;
+
+    .container img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .container p{
+        font-family: 'Marcellus', serif;
+        font-size: 3rem;
+        color: white;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    /* COMENTARIOS */
+
+    .opinionesconte{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .opiniones{
+        
+        background-image: url(../img/Group\ 200.svg);
+        background-repeat: no-repeat;
+        width: 350px;
+        box-shadow: 2px 2px 30px rgba(0, 0 , 0, 0.1);
+        background-color: white;
+        padding: 20px;
+        margin: 55px;
+        border-radius: 10px;
+    }
+
+    .imagen{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 40px;
+    }
+
+    .imagen img {
+        width: 100%;
+        height: 100%;
+        object-fit: center;
+    }
+
+    .perfil{
+        display: flex;
+        align-items: center;
+    }
+
+    .nameuser{
+        font-family: 'Marcellus', serif;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nameuser strong{
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+
+    .stars{
+        color: white;
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+    .comentarios{
         color: white;
     }
+    
+/* FOOTER */
+
+.pagina{
+    font-family: 'Marcellus', serif;
+    background-color: black;
+    height: 420px;
+}
+
+.description{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Marcellus', serif;
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 260px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.sociales{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    color: white;
+}
+
+.sociales i{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0.1rem;
+    color: white;
+    font-size: 40px;
+    margin-left: 70px;
+    margin-bottom: 55px;
+}
+
+.telefonos{
+    font-family: 'Marcellus', serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+
+}
+
