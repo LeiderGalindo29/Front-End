@@ -248,6 +248,11 @@ nav a
       border-radius: 3%;
 }
 
+.find {
+      text-align: center;
+      font-size: 2.2rem;
+  }
+
 
 .nombre
 {
@@ -284,7 +289,7 @@ margin-left: 9%;
       align-items: baseline;
       height: 9rem;
 }
-.linea
+.parrafo
 {
       width: 25%;
 }
@@ -307,10 +312,7 @@ margin-left: 9%;
       flex-wrap: wrap;
       padding: 2%;
 }
-#direccionamiento
-{
-      margin-top: 21%;
-}
+
 .redes
 {
       display: flex;
@@ -322,3 +324,7 @@ margin-left: 9%;
 {
       margin-left: 3%;
 }
+
+div#separador1 {
+      margin-top: 13%;
+  }
