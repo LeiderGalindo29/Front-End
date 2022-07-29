@@ -214,11 +214,11 @@ nav a
 {
       margin-bottom: 2%;
 }
-.calificaciones
+.contenopi
 {
-      height:20em ;
+      height: 26em;
 }
-.carrusel 
+.all 
 {
       display: flex;
      justify-content: space-around;
@@ -227,7 +227,7 @@ nav a
      margin-top: -2%;
 
 }
-.carrusel img
+.all img
 {
     border-radius: 50%;
     width: 50px;
@@ -244,7 +244,8 @@ nav a
       flex-direction: column;
       background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
       color:var(--blanco);
-      width: 25%;
+      width: 20%;
+      border-radius: 3%;
 }
 
 
@@ -253,17 +254,29 @@ nav a
       background-image: url(/img/Group\ 200.svg);
       background-size: cover;
 }
-/*.descripcion
-{
-      background: transparent;
-}*/
-.footer-container
+
+.descripcion p{
+margin-left: 9%;
+    margin-bottom: 5%;
+}
+.nombre h5{
+      margin-left: 30%;
+      margin-top: -13%;
+      font-size: 1.5rem;
+}
+
+.stars {
+      margin-bottom: 10%;
+      margin-left: 30%;
+}
+
+.pie-pagina
 {
       background-color: var(--negro);
       color: white;
       padding: 2%;
 }
-.footer-container .text-footer
+.pie-pagina .texto
 {
       display: flex;
       justify-content: space-around;
@@ -271,7 +284,7 @@ nav a
       align-items: baseline;
       height: 9rem;
 }
-.parrafo2
+.linea
 {
       width: 25%;
 }
@@ -294,7 +307,7 @@ nav a
       flex-wrap: wrap;
       padding: 2%;
 }
-#separador2
+#direccionamiento
 {
       margin-top: 21%;
 }
@@ -305,7 +318,7 @@ nav a
       width: 30%;
       margin-top: 5%;
 }
-#separador
+#direccionamiento1
 {
       margin-left: 3%;
 }
