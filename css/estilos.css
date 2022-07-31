@@ -419,11 +419,12 @@ div#separador1 {
 
   /*Resolución notebooks*/
   @media screen and (min-width: 375px){
-      #titulo h1{
-            font-size: 74%;
-      }
-      .menu a{
-            margin-top: 0%;
-      }
+      
     
 }
+
+
+
+/*----------------LOGIN-----------------------------*/
+
+

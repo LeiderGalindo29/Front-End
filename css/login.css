@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+*{
+    padding: 0  ;
+    margin: 0;
+}
+img{
+    width: 39%;
+
+}
+
+
+.center{
+    display: flex  ;
+    justify-content: center;
+    align-items: center;
+}
+#room{
+    width: 100%;
+    height: 800px;
+    background-image: url(https://www.momondo.com.co/himg/81/46/f2/hotelsdotcom-2184508-39ebdc-977802.jpg);
+    
+}
+
+#filter{
+    -webkit-backdrop-filter:blur(15px);
+    backdrop-filter:blur(15px);
+    background-color: rgba(243,243,243,0.2 ) ;
+}
+
+
+  #form-blanco{
+    
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(39deg, #337AB7 1.89%, #0B3860 160.34%);
+    backdrop-filter: blur(5px);
+    color: var(--blanco);
+    width: 35%;
+    border-radius: 3%;
+  }
+
+  #form-login {
+    background-image: url(../img/Group\ 200\ login.svg);
+    background-repeat: no-repeat;
+    width: 407px;
+    height: 460px;
+    padding: 25px 30px;
+    color: white;
+    margin-top: -13%;
+}
+
+
+.login-box {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  
+  .login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .sinfondo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: -54px;
+    margin-left: 44%;
+    margin-top: -79%;
+    margin-bottom: 68%;
+}
+
+  .formulario {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 44%;
+    margin-top: -69%;
+  }
+
+  .formulario p{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12%;
+    margin-bottom: 2%;
+    color: white;
+  }
+
+  input[type="text"] {
+    width: 270px;
+    height: 22px;
+}
+input[type="password"] {
+    width: 270px;
+    height: 22px;
+}
+
+.boton {
+    font-family: 'Marcellus', serif;
+    position: absolute;
+    margin-top: 51%;
+    width: 278px;
+    height: 37px;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    margin-top: 45%;
+}
+
+.no-cuenta{
+    position: absolute;
+    margin-top: 51%;
+    display: flex;
+    
+}
+
+a {
+    text-decoration: none;
+    margin-top: 12%;
+    color: black;
+}
+.no-cuenta p{
+    color: white;
+}
+/*
+@media screen and (min-width : 320px) {
+    #room{
+        display: flex;
+          flex-direction: row; 
+        transform: rotate(-90deg);
+        width: 100%;
+        height: 500%;
+        
+    }
+    #form-blanco{
+        transform: rotate(90deg);
+    width: 117%;
+    margin-top: 4%;
+    margin-right: 74%;
+    height: -100%;
+    margin-bottom: 2%;
+    }
+
+    #form-login{
+        
+        background-repeat: no-repeat;
+        width: 407px;
+        height: 460px;
+        padding: 25px 30px;
+        color: white;
+        margin-top: -13%;
+    }
+    .no-cuenta a{
+        display: none;
+    }
+    .no-cuenta p{
+        display: none;
+    }
+    .boton{
+        margin-top: 53%;
+    }
+    }
