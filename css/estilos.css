@@ -278,6 +278,7 @@ nav a:hover{
     margin-left: 9%;
     margin-top: 3%;
 }
+
 #opinion
 {
       display: flex;
@@ -305,6 +306,37 @@ margin-left: 9%;
     margin-bottom: 5%;
 }
 .nombre h5{
+      margin-left: 30%;
+      margin-top: -13%;
+      font-size: 1.5rem;
+}
+
+.stars {
+      margin-bottom: 10%;
+      margin-left: 30%;
+}
+
+#opinion1
+{
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+      color:var(--blanco);
+      width: 20%;
+      border-radius: 3%;
+}
+
+.nombre1
+{
+      background-image: url(/img/Group\ 200.svg);
+      background-size: cover;
+}
+
+.descripcion1 p{
+margin-left: 9%;
+    margin-bottom: 5%;
+}
+.nombre1 h5{
       margin-left: 30%;
       margin-top: -13%;
       font-size: 1.5rem;
@@ -418,13 +450,95 @@ div#separador1 {
 }
 
   /*Resolución notebooks*/
-  @media screen and (min-width: 375px){
+  @media screen and (min-width: 375px) and (max-width : 720px){
+
+      .logo:hover .menu{
+            
+      }
       
+nav:hover .menu{
+      display:flex;
+      background-color: "transparent";
+}  .contenido{
+            font-size: 1rem;
+      }
+
+      .logo i{
+      margin-left: 156%;
+      margin-bottom: 225%;
+      
+    }
+
+    .logo img{
+      margin-bottom: 221%;
+    }
+
+    nav a{
+      /*background: rgb(15,14,19);
+      /*background: linear-gradient(90deg, rgba(15,14,19,0.8519782913165266) 45%, rgba(0,18,255,0.7455357142857143) 69%);*/
+    width: 336%;
+    display: flex;
+    justify-content: center;
+    margin-left: -111%;
+    text-align: center;
+
+    }
+
     
+
+      .navbar-button{
+            width: 50%;
+    margin-right: 12%;
+      }
+
+      .menu{
+            background-color: transparent;
+    width: 59%;
+      }
+
+      .item{
+            margin-left: -77%;
+            background-color: transparent;
+      }
+
+      .menu-hr{
+            width: 239%;
+    margin-right: 120%;
+    background-color: var(--blanco);
+    margin-top: 16%;
+      }
+
+      #titulo h1{
+            font-size: 1.5rem;
+      }
+
+      #opinion1{
+            width: 75%;
+      }
+
+      #opinion{   
+            display: none;
+            
+      }
+      .nombre1 h5{           
+       font-size: 0.9rem;
+      }
+
+
+      .pie-pagina .texto {
+            display: flex;
+            height: 40rem;
+            flex-flow: column;
+        }
+
+
+      .parrafo{
+            width: 107%;
+      }
+
 }
 
 
 
-/*----------------LOGIN-----------------------------*/
 
 
