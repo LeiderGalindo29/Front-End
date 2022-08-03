@@ -452,9 +452,6 @@ div#separador1 {
   /*Resolución notebooks*/
   @media screen and (min-width: 375px) and (max-width : 720px){
 
-      .logo:hover .menu{
-            
-      }
       
 nav:hover .menu{
       display:flex;

@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0b3860 80.34%);
+}
+*{
+    padding: 0  ;
+    margin: 0;
+    overflow: hidden;
+}
+
+#room{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 670px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/35/Vista_Aerea_de_la_Ciudad_de_Cochabamba.png);
+    background-repeat: no-repeat;
+    
+}
+
+#espacio{
+    position: absolute;
+    background: rgb(51,122,183);
+    background: linear-gradient(90deg, rgba(51,122,183,0.5239670868347339) 1%, rgba(11,56,96,0.5239670868347339) 100%);
+    backdrop-filter: blur(5px);
+    color: var(--blanco);
+    width: 35%;
+    height: 100%;
+}
+
+
+.descripcion{
+    display: flex;
+    font-family: 'Marcellus', serif;
+    justify-content: center;
+    margin-top: 6%;
+    font-size: 2.7rem;
+}
+
+img{
+    margin-top: 43%;
+}
+
+.registrate{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0.4687850140056023) 1%, rgba(255,255,255,0.6108018207282913) 100%);
+    margin-left: 10%;
+    margin-top: 1%;
+    width: 57%;
+    height: 96%;
+    margin-left: 41%;
+    border-radius: 8px;
+    padding: 0.rem;
+}
+
+.descripcion1{
+    display: flex;
+    font-family: 'Marcellus', serif;
+    justify-content: center;
+    margin-top: 6%;
+    font-size: 2.7rem;
+}
+
+
+#documento{
+    display: flex;
+    align-items: flex-end;
+    width: 42%;
+    margin-left: 3%;
+    padding: 0.2rem;
+    
+}
+
+.tipo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2%;
+    text-align: start;
+    margin-left: 3%;
+    margin-bottom: 1.5%;
+}
+
+
+#izquierda{
+    display: flex;
+    align-items: flex-end;
+    width: 42%;
+    margin-left: 3%;
+    padding: 0.2rem;
+    
+}
+
+
+.derecha{
+    margin-left: 54%;
+    width: 83%;
+    margin-top: -9%;
+}
+
+
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+
+.opciones{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 4rem;
+    margin-right: -34%;
+    margin-bottom: 58%;
+    margin-top: -6%;
+}
+
+#opciones-input{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0.7rem;
+}
+
+.opciones p {
+    margin-right: 18%;
+}
+
+.derecha-telefono{
+    margin-left: 54%;
+    width: 83%;
+    margin-top: -9%;
+}
+
+.email-e{
+    margin-top: -56%;
+}
+
+input[type=file]{
+    color: transparent;
+    margin-right: 51%;
+  }
+
+a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    text-decoration: none;
+    color: black;
+}
+
+.boton{
+    padding: 1px auto;
+    
+}
+
+button {
+    background-color: var(--azulnegro);
+    font-family: 'Marcellus', serif;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    width: 29%;
+    color: white;
+    border-color:var(--azulnegro) ;
+}
+
+
+@media screen and (min-width : 320px) and (max-width : 720px){
+
+    #espacio{
+    width: 101%;
+    height: 14%;
+    margin-top: 10%;
+    }
+
+    img {
+        margin-top: 4%;
+        width: 52%;
+    }
+    .descripcion {
+        visibility: hidden;
+        margin-left: -50%;
+        text-align: center;
+        margin-right: -180%;
+    }
+
+    .descripcion:before{
+        content: "Un lugar en tu corazon";
+        visibility: visible;
+        font-size: 2rem;
+        
+    }
+
+    .registrate {
+        margin-top: 90%;
+        width: 96%;
+        margin-left: 3%;
+    }
+
+    *{
+        overflow: visible;
+    }
+
+    .tipo {
+        font-size: 0.8rem;
+    }
+
+    #opciones-input {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0.7rem;
+    }
+
+    select#documento {
+        width: 91%;
+    }
+
+    input#izquierda {
+        width: 67%;
+    }
+
+    .opciones {
+        margin-left: -63%;
+        margin-top: 2%;
+    }
+    
+    input#archivo {
+        margin-left: 3%;
+    }
+
+    .derecha-telefono{
+        margin-left: 0%;
+    margin-top: 0%;
+    }
+
+    .derecha {
+        width: 131%;
+        margin-left: -1%;
+        margin-top: 4%;
+    }
+
+    .boton {
+        margin-top: 13%;
+    }
+
+    input#izquierda {
+        width: 70%;
+    }
+
+    #room {
+        height: 0%;
+    }
+}
