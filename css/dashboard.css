@@ -10,93 +10,409 @@
   --verdeazul: #157A8A;
   --Magenta: #9C2759;
   --blanco: #fff;
-  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0b3860 80.34%);
-}
-*
-{
-    margin:0;
-}
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
 
 
-.contenopi
-{
-      height: 26em;
-}
-.all 
-{
-     width: 100%;
-     position: absolute;
-     margin-top: 0%
-
-}
-.all img
-{
-    width: 50px;
-    height: 50px;
-    overflow: hidden;
-    margin-right: 40px;
-    margin-left: 9%;
-    margin-top: 3%;
 }
 
-#opinion
-{
+body{
+      font-family: 'Marcellus', serif;
+      font-size: 16px;
+}
+   
+    h1,h2,h3,h4,h5{
+      font-family: 'Marcellus', serif;
+}
+ 
+*{
+      margin: 0%;
+}
+.seccion-arriba{
+      width: 17%;   
+      color: white;
       display: flex;
       flex-direction: column;
-      background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
-      color:var(--blanco);
-      width: 20%;
+      height: 100vh;  
+      position: fixed;
 }
 
-.find {
-      text-align: center;
-      font-size: 2.2rem;
+.izquierda{
+      display: flex;
+      flex-direction: column;
+
+}
+
+.izquierda a i{
+      display: flex;
+      align-items: center;
+}
+
+.all{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 7%;
+      height: 30%;  
+     background: url(../img/fondo.jpeg);
+     background-size: cover;
+}
+
+.logo img{
+      width: 60%;   
+}
+
+.logo .mobile{
+    display: none;
+}
+
+.logo{
+      display: flex;
+      justify-content: center;
+}
+
+.perfil{
+      
+      display: flex;
+      justify-content: flex-end;
+}
+
+.perfil img{
+    display: none;
+
+
+}
+
+.izquiera-all{
+      padding: 3%;
+      display: flex;
+      justify-content: space-between;
+      height: 100%;
+      background-color: rgb(51, 51, 71);
+      display: flex;
+      flex-direction: column;
+}
+
+.sign-out{
+    width: 100%;
+}
+
+.sign-out a{
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.205);
+      display: flex;
+      justify-content: end;
+}
+
+a{     
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      color: white;
+      font-size: 1.2em;
+}
+
+i#opciones{
+     transition: .3s all ease;
+      margin: 5%;
+      color: white;
+      margin-right: 10%;
+}
+
+.iconos:hover{
+      background-color: var(--azuloscuro);
+      width: 90%;
+      height: 100%;
+}
+
+.seccion-2{   
+    background: url(https://previews.123rf.com/images/mathess/mathess1608/mathess160801162/60953801-vista-a%C3%A9rea-de-la-paz-bolivia.jpg);
+    background-size: cover;
+    display: flex;
+   
+}
+
+.logo-img{
+    width: 30%;
+}
+
+.all-2{
+    background-color: rgba(255, 255, 255, 0.625);
+    margin-left: 22%;
+    margin-top: 3%;
+    border-radius: 5px;
+    width: 75%;
+    height: 90%;
+}
+
+.all-3 img{
+    width: 20%;
+
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 2em;
+}
+
+.logo-img img{
+    width: 60%;
+}
+
+.files{
+    background-color: var(--azuloscuro);
+    height: 3em;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.files i{
+    font-size: 2em;
+    color: #fff;
+
+}
+
+#upload{
+    margin-right: 20%;
+}
+
+.logo-img button{
+      
+    width: 60%;
+    height: 4em;
+    font-size: 1.2em;
+    background-color: var(--negro);
+    color: white;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil-2{
+    padding: 5%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.all-3{
+    font-size: 1em;
+    width: 65%;
+}
+
+.lleno{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.all-4{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+.all-5{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.genero{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.password{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.all-3 input{
+    margin-top: 4%;
+    font-size: 1em;
+    color: var(--negro2);
+    height: 2em;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+.all-3 label{
+    font-size: 1.2em;
+
+}
+.update button{
+    font-family: 'Marcellus', serif;
+      font-size: 1.2em;
+    margin-top: 5%;
+    width: 37%;
+    height: 3em;
+    border: none;
+    color: white;
+    background-color: var(--negro);
+
+}
+
+#izquierda{
+      display: flex;
+      align-items: flex-end;
+      width: 42%;
+      margin-left: 3%;
+      padding: 0.2rem;
+      
   }
 
+.change button{
+    font-family: 'Marcellus', serif;
+    font-size: 1.2em;
+    margin-top: 5%;
+    width: 37%;
+    height: 3em;
+    border: none;
+    color: white;
+    background-color: var(--negro);
 
-.nombre
-{
-      background-image: url(/img/Group\ 200.svg);
-      background-size: cover;
 }
 
-.descripcion p{
-margin-left: 9%;
-    margin-bottom: 5%;
-}
-.nombre h5{
-      margin-left: 30%;
-      margin-top: -13%;
-      font-size: 1.5rem;
-}
-
-.stars {
-      margin-bottom: 10%;
-      margin-left: 30%;
-}
-
-#opinion1
-{
+#tipo{
       display: flex;
       flex-direction: column;
-      background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
-      color:var(--blanco);
-      width: 20%;
-      border-radius: 3%;
+}
+        
+#tipo input{
+      width: 120%;
 }
 
-.nombre1
-{
-      background-image: url(/img/Group\ 200.svg);
-      background-size: cover;
+#documento{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      
+    display: flex;
+    flex-direction: column;
+}#documento input{
+    width: 120%;
+}.radio{
+    display: flex;
+    flex-flow: row nowrap;
 }
+@media screen and (min-width: 360px) and (max-width: 768px){
 
-.descripcion1 p{
-margin-left: 9%;
-    margin-bottom: 5%;
-}
-.nombre1 h5{
-      margin-left: 30%;
-      margin-top: -13%;
-      font-size: 1.5rem;
+    .logo .destop{
+        display: none;
+
+    }
+    .logo .mobile{
+        display: block;
+
+    }
+    .perfil img{
+        display: block;
+        max-width: 40px;
+        width: 100%;
+        border-radius: 8%;
+
+    }
+    
+    .perfil{
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .perfil h3,h4{
+        display: none;
+
+    }
+    
+    .izquierda a p{
+        display: none;
+    }
+    
+    .izquierda a{
+        justify-content: center;
+    }
+    
+    .sign-out a p{
+        display: none;
+    }
+    
+    .sign-out a{
+        justify-content: center;
+    }
+    
+    .izquiera-all{
+        justify-content: space-around;
+    }
+    
+    .izquiera-all a i:hover{
+        background: var(--azuloscuro);
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .sign-out a:hover{
+        background: var(--azuloscuro);
+        width: 100%;
+    }
+    
+    .perfil-2{
+        font-size: 0.9em;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        
+    }
+    
+    .logo-img{
+        margin-left: 15%;
+        width: 90%;
+        margin-bottom: 5%;
+    }
+    
+    .seccion-2{
+        height: 100%;
+    }
+    
+    .titulo{
+        margin-top: 5%;
+        font-size: 1.3em;
+    }
+    
+    .genero{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .genero .radio{
+    
+        font-size: 0.8em;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .update button{
+        width: 80%;
+    }
+    
+    .cambio button{
+        width: 80%;
+    }
+    
+    .radio{
+        margin-bottom: 3em;
+    }
 }

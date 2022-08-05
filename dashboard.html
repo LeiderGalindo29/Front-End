@@ -1,34 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/dashboard.css">
     <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dashboard.css">
     <title>Dashboard</title>
 </head>
+
 <body>
-    <section class="contenopi">
-            <div class="all">                    
-                <div id="opinion" >
-                        <div class="nombre">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCfBdBWeo_usOiHgXZ2Ts7O4qPUfmQGntb6yR-OVklfZNQoeuOe9t1onhCz1KG5fOMVZI&usqp=CAU">
-                            <h5>Diego rodriguez</h5>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
+    <section class="seccion-arriba">
+        <div class="all">
+            <div class="logo">
+                <img src="img/Hotelia horizontal blanco.svg" class="destop">
+                <img src="img/hotelia campana.svg" class="mobile">
+            </div>
+
+            <div class="perfil">
+                <div>
+                    <img src="img/foto-mobile.png" alt="">
+                    <h3>Angie Vargas</h3>
+                    <h4>angie@gmail.com</h4>
+                </div>
+            </div>
+        </div>
+        <div class="izquiera-all">
+            <div class="izquierda">
+                <a href="" class="iconos"><i class="fa-solid fa-bed" id="opciones"></i>
+                    <p>Habitaciones</p>
+                </a>
+                <a href="" class="iconos"><i class="fa-solid fa-bell-concierge" id="opciones"></i>
+                    <p>Reservas</p>
+                </a>
+                <a href="" class="iconos"><i class="fa-solid fa-bed" id="opciones"></i>
+                    <p>Habitaciones</p>
+                </a>
+                <a href="" class="iconos"><i class="fa-solid fa-bell-concierge" id="opciones"></i>
+                    <p>Habitaciones</p>
+                </a>
+            </div>
+
+            <div class="sign-out">
+                <a href="index.html"><i class="fa-solid fa-arrow-right-from-bracket" id="menu"></i>
+                    <p>Cerrar Sesion</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="seccion-2">
+        <div class="all-2">
+            <div class="titulo">
+                <h1>Bienvenido, Angie Vargas</h1>
+            </div>
+            <div class="perfil-2">
+                <div class="logo-img">
+                    <img src="img/sinfondo.jpg">
+                    <div class="files">
+                        <div id="upload"><i class="fa-solid fa-file-arrow-up"></i></div>
+                        <div id="download"><i class="fa-solid fa-upload"></i></div>
+                    </div>
+                    <button>Cambiar Contraseña</button>
+                </div>
+                <div class="all-3">
+                    <div class="lleno">
+                        <div id="tipo">
+                            <label for="tip-doc">Tipo de documento</label>
+                            <input type="text" name="tip-doc" placeholder="Cedula de Ciudadania">
+                        </div>
+                        <div id="tipo">
+                            <label for="num-doc">Número documento</label>
+                            <input type="text" name="num-doc" placeholder="1024517456">
+
+                        </div>
+
+
+                    </div>
+                    <div class="all-4">
+                        <div id="tipo">
+                            <label for="nombre">Nombres</label>
+                            <input type="text" name="nombre" placeholder="Angie Camila">
+                        </div>
+                        <div id="tipo">
+                            <label for="Apellido">Apellidos</label>
+                            <input type="text" name="Apellido" placeholder="Vargas Pinzon">
+
+                        </div>
+                    </div>
+                    <div class="all-5">
+
+                        <div id="tipo">
+                            <label for="fecha">Fecha nacimiento</label>
+                            <input type="text" name="fecha" placeholder="10/08/1976">
+                        </div>
+                        <div id="tipo">
+                            <label for="origen">País de origen</label>
+                            <input type="text" name="origen" placeholder="Colombia">
+
+                        </div>
+                    </div>
+                    <div class="genero">
+                        <div id="tipo">
+                            <div class="radio">
+                                <label for="fecha">Género</label>
+                                <input type="radio" name="genero">Mujer
+                                <input type="radio" name="genero">Hombre
+                                <input type="radio" name="genero">Otro
                             </div>
                         </div>
-                        <div class="descripcion">                            
-                        <p>Lorem ipsum dolor sit amet, consectet adipiscing elit.
-                            Elit quis enim ultricies ullamcorper.
-                            Nunc aenean auctor vel diam dictum.</p>
+                        <div id="tipo">
+                            <label for="tel">Teléfono de contacto</label>
+                            <input type="text" name="tel" placeholder="Teléfono">
+
                         </div>
+
+                        <div class="email-e">
+                            <p class="tipo">Email</p>
+                            <input type="email" name="Escoga" id="izquierda">
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="tipo">
+                            <button>Actualizar</button>
+                        </div>
+
+                    </div>
+                    <div class="password">
+                        <div id="tipo">
+                            <label for="password">Contraseña</label>
+                            <input type="password">
+                        </div>
+                        <div id="tipo">
+                            <label for="passwordd">Confirmar contraseña</label>
+                            <input type="password">
+
+                        </div>
+
+                    </div>
+                    <div class="change">
+                        <div class="tipo">
+                            <button>Cambiar</button>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
