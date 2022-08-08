@@ -76,11 +76,15 @@ body{
       justify-content: flex-end;
 }
 
-.perfil img{
-    display: none;
-
-
+.gmail {
+    margin-top: 12%;
+    margin-left: -37%;
 }
+.perfil img{
+    width: 123px;
+    margin-left: -26%;
+}
+
 
 .izquiera-all{
       padding: 3%;
@@ -125,199 +129,165 @@ i#opciones{
       height: 100%;
 }
 
-.seccion-2{   
-    background: url(../img/city.jpg);
+.section-izquierda {
+    background: url(../img/habitacion.jpeg);
     background-size: cover;
+    position: absolute;
     display: flex;
-   
+    width: 1681px;
+    height: 1109px;
+    margin-left: 17%;
 }
 
-.logo-img{
-    width: 30%;
-}
-
-.all-2{
+.fondo {
     background-color: rgba(255, 255, 255, 0.625);
-    margin-left: 22%;
+    margin-left: 4%;
     margin-top: 3%;
     border-radius: 5px;
-    width: 75%;
+    width: 94%;
     height: 90%;
 }
 
-.all-3 img{
-    width: 20%;
+.registro {
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+    padding: 1.8rem;
+}
+
+
+
+p {
+    font-size: 1.5rem;
+}
+
+.name {
+    padding: 5rem;
+    box-shadow: 1px;
+    height: -34%;
+}
+
+.campo {
+    width: 45%;
+    box-shadow: -7%;
+    height: -29%;
+    padding: 0.8rem;
+    box-shadow: 1px;
+}
+
+.numero {
+    margin-left: 53%;
+    margin-top: -9%;
 
 }
 
-.titulo{
-    display: flex;
-    justify-content: center;
+.derecha {
+    margin-top: -23%;
+}
+
+.campo1 {
+    padding: 0.8rem;
     margin-top: 2%;
-    font-size: 2em;
+    width: 87%;
 }
 
-.logo-img img{
-    width: 60%;
-}
-
-.files{
-    background-color: var(--azuloscuro);
-    height: 3em;
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-}
-
-.files i{
-    font-size: 2em;
-    color: #fff;
-
-}
-
-#upload{
-    margin-right: 20%;
-}
-
-.logo-img button{
-      
-    width: 60%;
-    height: 4em;
-    font-size: 1.2em;
-    background-color: var(--negro);
-    color: white;
-    margin-top: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.perfil-2{
-    padding: 5%;
+.camas {
+    font-size: 1.9rem;
+    padding: 1.8rem;
     margin-left: 3%;
-    display: flex;
-    flex-direction: row;
 }
 
-.all-3{
-    font-size: 1em;
-    width: 65%;
+#figuras {
+    color: white;
+    background-color: black;
+    width: 37px;
+    text-align: center;
+    height: 44px;
+    margin-top: 2%;
+}
+#figuras-2 {
+    color: white;
+    background-color: black;
+    width: 37px;
+    text-align: center;
+    height: 44px;
+    margin-top: 2%;
 }
 
-.lleno{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.huespedes {
+    font-size: 1.9rem;
+    padding: 1.8rem;
+    margin-left: 30%;
+    margin-top: -9.7%;
+}
+
+.campo-all {
+    width: 13%;
+    box-shadow: -7%;
+    height: -29%;
+    padding: 0.8rem;
+    box-shadow: 1px;
+}
+
+.valor {
+    margin-left: 53%;
+    margin-top: 3.2%;
+}
+
+.imagen {
+    margin-left: 53%;
+    margin-top: 0.2%;
+}
+
+.campo2 {
+    padding: 0.8rem;
+    margin-top: 2%;
+    width: 87%;
+}
+
+.caja {
+    margin-left: 3%;
+    padding: 2rem;
+    height: 30%;
     
 }
 
-.all-4{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    
-
+.campo-3 {
+    width: 97%;
+    height: 44%;
 }
 
-.all-5{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.servicios {
+    margin-left: 8%;
+    margin-top: -8%;
 }
 
-.genero{
-    margin-top: 5%;
-    display: flex;
-    margin-left: 11%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-right: 0%;
+.servicios-1 {
+    font-size: 3rem;
+    text-align: center;
 }
 
-.password{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+#servicios-all1 {
+    font-size: 3rem;
+    margin-right: 5%;
+    padding: 1rem;
+    margin-bottom: -12%;
 }
 
-.all-3 input{
+
+.boton {
+    font-family: 'Marcellus', serif;
+    margin-top: 51%;
+    width: 323px;
+    height: 53px;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
     margin-top: 4%;
-    font-size: 1em;
-    color: var(--negro2);
-    height: 2em;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.719);
+    margin-left: 40%;
 }
 
-.all-3 label{
-    font-size: 1.2em;
-
-}
-.update button{
-    font-family: 'Marcellus', serif;
-      font-size: 1.2em;
-    margin-top: 5%;
-    width: 37%;
-    height: 3em;
-    border: none;
-    color: white;
-    background-color: var(--negro);
-
-}
-
-#izquierda{
-      display: flex;
-      align-items: flex-end;
-      width: 42%;
-      margin-left: 3%;
-      padding: 0.2rem;
-      
-  }
-
-.change button{
-    font-family: 'Marcellus', serif;
-    font-size: 1.2em;
-    margin-top: 5%;
-    width: 37%;
-    height: 3em;
-    border: none;
-    color: white;
-    background-color: var(--negro);
-
-}
-
-#tipo{
-      display: flex;
-      flex-direction: column;
-}
-        
-#tipo input{
-      width: 120%;
-}
-
-.email-e {
-    display: flex;
-    width: 86%;
-    margin-right: 16%;
-}
-
-#documento{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      
-    display: flex;
-    flex-direction: column;
-}#documento input{
-    width: 120%;
-}.radio{
-    display: flex;
-    flex-flow: row nowrap;
-}
-@media screen and (min-width: 360px) and (max-width: 768px){
+@media screen and (min-width : 320px) and (max-width : 720px){
 
     .logo .destop{
         display: none;
@@ -390,37 +360,64 @@ i#opciones{
         width: 90%;
         margin-bottom: 5%;
     }
-    
-    .seccion-2{
-        height: 100%;
+
+    .section-izquierda{
+        width: 375px;
     }
-    
-    .titulo{
-        margin-top: 5%;
-        font-size: 1.3em;
+
+    .registro {
+        font-size: 1.3rem;
+        text-align: center;
     }
-    
-    .genero{
-        display: flex;
-        flex-direction: column;
+
+    .name {
+        width: 182%;
+        margin-left: -18%;
     }
-    
-    .genero .radio{
-    
-        font-size: 0.8em;
-        display: flex;
-        flex-direction: column;
+
+    .numero{
+        margin-left: 5%;
     }
-    
-    .update button{
-        width: 80%;
+
+    .camas{
+        margin-left: -5%;
     }
-    
-    .cambio button{
-        width: 80%;
+
+    .huespedes {
+        margin-right: -17%;
+        margin-left: 47%;
+        margin-top: -39%;
     }
-    
-    .radio{
-        margin-bottom: 3em;
+
+    .valor {
+        margin-left: 6%;
+        margin-top: 17%;
     }
+
+    .name {
+        margin-top: -20%;
+    }
+
+    .imagen {
+        margin-left: 5%;
+    }
+
+    #servicios-all1 {
+        font-size: 2rem;
+        margin-top: 2%;
+    }
+
+    .caja {
+        height: 13%;
+        padding: 2%;
+    }
+
+    .servicios {
+        margin-top: -15%;
+    }
+
+    .boton{
+        margin-left: 6%;
+    }
+
 }
