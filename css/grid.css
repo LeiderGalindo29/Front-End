@@ -20,16 +20,16 @@
 } h1,h2,h3,h4,h5{
     font-family: 'Marcellus', serif;
 }
-#container-grid {
+#all {
     display: grid;
     grid-template:
         "nav" auto
-        "banner" auto
+        "texto" auto
         "descripcion" auto
         "feature" auto
         "ubicacion" auto
         "opinion" auto
-        "footer" auto
+        "pie-pagina" auto
 }
 nav {
     grid-area: nav;
@@ -75,7 +75,7 @@ z-index: 100;
     background-color: rgba(1, 10, 52, 0.838);
 }
 
-#hijo1{
+#con-text{
     font-family: 'Marcellus', serif;
 }
 
@@ -110,7 +110,7 @@ nav a:hover {
     color: var(--blanco);
 }
 
-#banner {
+#texto {
     background-image: url('/img/slide1.jpg');
     background-size: cover;
     background-position: 50% 50%;
@@ -119,7 +119,7 @@ nav a:hover {
     display: flex;
     align-items: flex-end;
     
-}#banner h1{
+}#texto h1{
     color: #fff;
     width: 65%;
     background-color: #2222244b;
@@ -130,10 +130,10 @@ nav a:hover {
     grid-area: descripcion;
     display: grid;
     grid-template-areas:
-        "text-log";
+        "texto-1";
         padding: 1.5em;
         font-size: 2em;
-}#hijo{
+}#imageni{
     display: none;
 }#feature{
     background: url(/img/bg-features.png);
@@ -180,7 +180,7 @@ nav a:hover {
     grid-area: ubicacion;
     display: grid;
     grid-template-areas:
-        "tit"
+        "find"
         "mapa"
         "inf";
     text-align: center;
@@ -192,7 +192,7 @@ nav a:hover {
 }.inf{
     font-size: 1.2em;
     padding: 3%;
-}.tit{
+}.find{
     font-size: 2em;
     padding: 3%;
 }
@@ -201,15 +201,15 @@ nav a:hover {
     display: grid;
     
 
-}#footer{   
+}#pie-pagina{   
     font-family: 'Marcellus', serif;
     background-color: #000;
     color: white;
-    grid-area: footer;
+    grid-area: pie-pagina;
     display: grid;
 
     
-}.text.t3{
+}.text3{
     display: flex;
     grid-template-columns: auto auto;
     grid-column-gap: 18%;
@@ -221,10 +221,10 @@ p.prf{
     font-family: 'Marcellus', serif;
 }
 
-.text.t{
+.text{
     font-size: 1.6em;
     padding: 1em;
-}.text.t2{
+}.text2{
     font-size: 1.5em;
     padding: 1em;
 }.icon1{
@@ -259,7 +259,7 @@ p.prf{
     padding: 3%;
     width: 20%;
     height: 3.5em;
-}.enc{
+}.nombre{
     width: 100%;
     height: 100%;
     display: flex;
@@ -284,7 +284,7 @@ p.prf{
 
 /*Resolución tabletas*/
 @media screen and (min-width:768px) {
-    #banner h1{
+    #texto h1{
         font-size: 2em;
     }.mapa iframe{
         width: 90%;
@@ -307,7 +307,7 @@ p.prf{
         padding: 3%;
         width: 20%;
         height: 3.5em;
-    }.enc{
+    }.nombre{
         width: 100%;
         height: 100%;
         display: flex;
@@ -329,16 +329,16 @@ p.prf{
         font-size: 1.2em;
     }.hr{
         display: none;
-    }#footer{
+    }#pie-pagina{
         background-color: var(--negro);
         display: grid;
         grid-template-columns: auto 300px auto;
         font-size: 0.8em;
-    }.text.t3{
+    }.text3{
         display: grid;
         grid-template-columns: auto;
         font-size: 1.3em;
-    }.text.t2{
+    }.text2{
         font-size: 1.3em;
     }
 
@@ -371,17 +371,17 @@ p.prf{
     .item {
     margin: 0 1rem;
     align-self: center;
-}#hijo{
+}#imageni{
     display: grid;
-}.text-log{
+}.texto-1{
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-areas: "hijo1" "hijo";
+    grid-template-areas: "con-text" "imageni";
     grid-gap: 5%;
-}#hijo{
+}#imageni{
     display: grid;
     align-items: center;
-}#banner h1{
+}#texto h1{
     font-size: 2.4em;
     height: 25%;
 }.features-title{
@@ -390,7 +390,7 @@ p.prf{
     font-size: 1.5em;
 }.inf{
     font-size: 1.5em;
-}.text.t3{
+}.text3{
     grid-column-gap: 50%
 }.ip{
     font-size: 1.7em;
@@ -409,7 +409,7 @@ p.prf{
     padding: 3%;
     width: 17%;
     height: 4.5em;
-}.enc{
+}.nombre{
     width: 100%;
     height: 100%;
     display: flex;
@@ -447,12 +447,12 @@ nav a:hover {
     align-self: center;
 }.hr{
     display: none;
-}#footer{
+}#pie-pagina{
     background-color: var(--negro);
     display: grid;
     grid-template-columns: 450px auto auto;
     font-size: 0.8em;
-}.text.t3{
+}.text3{
     display: grid;
     grid-template-columns: auto;
 }
@@ -465,7 +465,7 @@ nav a:hover {
     body{
         background-color: #EAEAEA;
     }
-    #container-grid{
+    #all{
         max-width: 1300px;
         margin: 0 auto;
     }
@@ -474,12 +474,12 @@ nav a:hover {
         max-width: 1300px;
     }.hr{
         display: none;
-    }#footer{
+    }#pie-pagina{
         background-color: var(--negro);
         display: grid;
         grid-template-columns: 450px auto auto;
         font-size: 0.8em;
-    }.text.t3{
+    }.text3{
         display: grid;
         grid-template-columns: auto;
     }
