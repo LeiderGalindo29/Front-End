@@ -159,7 +159,6 @@ a {
     #room{
     width: 100%;
     background-size: cover;
-    background-image: url(../img/beds.jpg);
         
     }
     #form-blanco{
@@ -180,45 +179,120 @@ a {
     color: white;
     }
     .no-cuenta a{
-        display: none;
+        display: block;
     }
     .no-cuenta p{
-        display: none;
+        display: block;
     }
     .boton{
-        margin-top: 53%;
+        margin-top: 62%;
     }
     }
-    
-    @media screen and (min-width: 768px) and (max-width: 1100px){
 
-        #form-blanco {
-            background: linear-gradient(39deg, #337AB7 1.89%, #0B3860 160.34%);
-            backdrop-filter: blur(5px);
-            color: var(--blanco);
-            width: 69%;
-            border-radius: 3%;
-            height: -100%;
-            margin-top: -5%;
-            height: 63%;
-        }
+
+
+
+         @media screen and (min-width : 721px) and (max-width : 768px){
+            #room{
+                width: 100%;
+                background-size: cover;
+                background-image: url(../img/beds.jpg);
+                    
+                }
+                #form-blanco{
+            
+                width: 117%;
+                
+                margin-right: 74%;
+                
+                margin-bottom: 2%;   
+                margin-left: 70%;
+                }
+            
+                #form-login{
+                    
+                    background-repeat: no-repeat;
+                width: 407px;
+                height: 460px;
+                color: white;
+                }
+                .no-cuenta a{
+                    display: block;
+                }
+                .no-cuenta p{
+                    display: block;
+                }
+                .boton{
+                    margin-top: 62%;
+                }
+                }
+                @media screen and (min-width: 769px) and (max-width : 1021px){
+                    #room{
+                        width: 100%;
+                        background-size: cover;
+                            
+                        }
+                        #form-blanco{
+                    
+                        width: 117%;
+                        
+                        margin-right: 74%;
+                        
+                        margin-bottom: 2%;   
+                        margin-left: 70%;
+                        }
+                    
+                        #form-login{
+                            
+                            background-repeat: no-repeat;
+                        width: 407px;
+                        height: 460px;
+                        color: white;
+                        }
+                        .no-cuenta a{
+                            display: block;
+                        }
+                        .no-cuenta p{
+                            display: block;
+                        }
+                        .boton{
+                            margin-top: 62%;
+                        }
+                    
+                    
+                     }
+                     @media screen and (min-width: 1021px) {
+                        #room{
+                            width: 100%;
+                            background-size: cover;
+                                
+                            }
+                            #form-blanco{
+                        
+                            width: 117%;
+                            
+                            margin-right: 74%;
+                            
+                            margin-bottom: 2%;   
+                            margin-left: 70%;
+                            }
+                        
+                            #form-login{
+                                
+                                background-repeat: no-repeat;
+                            width: 407px;
+                            height: 460px;
+                            color: white;
+                            }
+                            .no-cuenta a{
+                                display: block;
+                            }
+                            .no-cuenta p{
+                                display: block;
+                            }
+                            .boton{
+                                margin-top: 62%;
+                            }
+                        
+                         }
          
-       
-        
-        #form-login {
-            width: 480px;
-            height: 472px;
-            padding: 25px 30px;
-            color: white;
-            margin-top: -2%;
-        }
-        
-        a.boton {
-            margin-top: 44%;
-        }
-
-        .no-cuenta {
-            margin-top: 51%;
-        }
-        
-         }

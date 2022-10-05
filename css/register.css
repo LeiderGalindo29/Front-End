@@ -182,7 +182,7 @@ a{
 
     #espacio{
     width: 101%;
-    height: 14%;
+    height: 10%;
     margin-top: 2%;
     }
 
@@ -197,11 +197,11 @@ a{
         margin-right: -180%;
     }
 
-    .descripcion:before{
+    .descripcion:before {
         content: "Un lugar en tu corazon";
         visibility: visible;
-        font-size: 2rem;
-        
+        font-size: 1.5rem;
+        margin-left: 14%;
     }
 
     .registrate {

@@ -531,5 +531,126 @@ div#separador1 {
 
 
 
+@media screen and (min-width: 769px) and (max-width : 1021px){
+      .logo{
+            background-color: var(--negro2);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+            width: 100%;
+            padding: 1%;
+        }
 
+        #textos1 p{
+            font-size: 1rem;
+        }
+        
+      .logo img{
+            width: 100%;
+          max-width: 200px;
+      }
+      .logo i{
+            color: var(--blanco);
+          font-size: 2rem;
+      }
+      .menu{
+            background-color: rgba(1, 10, 52, 0.838);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;  
+            
+        }
+        .menu-hr{
+            width: 100%;
+            background-color: var(--blanco);
+        }
+        .item{
+        padding: 1rem;
+                
+      }
+      nav a{
+            color: var(--blanco);
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        .menu button{
+            padding: 1rem;
+            background-color:transparent;
+            border: none;
+            border-radius: 3px;
+            font-size: 1em;
+            padding: 0.5rem;
+            font-family: 'Marcellus', serif;
+            color: var(--blanco);
+        }nav{
+            display: flex;
+            flex-direction: column;
+            padding: 1%;
+            background-color: #000;            
+        }.menu{
+            width: 100%;
+            display: none;
+
+        }
+
+        .menu.active{
+            display: flex;
+            transform: translateY(0%);
+        }
+
+        nav a:hover{
+            background-color: #0B3860;
+            width: 100%;
+        }
+
+
+
+        div#textosl p {
+            font-size: 1em;
+            margin-top: -2%;
+            width: 73%;
+        }
+      .menu-hr{
+            width: 239%;
+    margin-right: 120%;
+    background-color: var(--blanco);
+    margin-top: 16%;
+      }
+
+      #titulo h1{
+            font-size: 1.5rem;
+      }
+
+      #opinion1{
+            width: 75%;
+      }
+
+      #opinion{   
+            display: none;
+            
+      }
+      .nombre1 h5{           
+       font-size: 0.9rem;
+      }
+
+
+      .pie-pagina .texto {
+            display: flex;
+            height: 40rem;
+            flex-flow: column;
+        }
+
+
+      .parrafo{
+            width: 107%;
+      }
+      .inf {
+            margin-left: 7%;
+            text-align: center;
+        }
+
+}
 
